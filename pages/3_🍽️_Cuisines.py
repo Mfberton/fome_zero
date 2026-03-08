@@ -16,7 +16,7 @@ st.set_page_config(
 #Importar os dados
 # ===========================================================================
 current_dir = os.path.dirname(os.path.abspath(__file__))
-df1 = pd.read_csv(os.path.join(current_dir, '..\\dataset', 'zomato_cleaned.csv'))
+df1 = pd.read_csv(os.path.join(current_dir, '..', 'dataset', 'zomato_cleaned.csv'))
 
 # ===========================================================================
 #Funções
